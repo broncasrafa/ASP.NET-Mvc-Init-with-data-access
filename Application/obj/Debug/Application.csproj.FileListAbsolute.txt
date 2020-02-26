@@ -1,0 +1,9 @@
+C:\_MyProjects\_Mvc\Projects\ProjectMvcExample2\Application\bin\Debug\Application.dll
+C:\_MyProjects\_Mvc\Projects\ProjectMvcExample2\Application\bin\Debug\Application.pdb
+C:\_MyProjects\_Mvc\Projects\ProjectMvcExample2\Application\bin\Debug\Domain.dll
+C:\_MyProjects\_Mvc\Projects\ProjectMvcExample2\Application\bin\Debug\Domain.pdb
+C:\_MyProjects\_Mvc\Projects\ProjectMvcExample2\Application\obj\Debug\Application.csprojAssemblyReference.cache
+C:\_MyProjects\_Mvc\Projects\ProjectMvcExample2\Application\obj\Debug\Application.csproj.CoreCompileInputs.cache
+C:\_MyProjects\_Mvc\Projects\ProjectMvcExample2\Application\obj\Debug\Application.csproj.CopyComplete
+C:\_MyProjects\_Mvc\Projects\ProjectMvcExample2\Application\obj\Debug\Application.dll
+C:\_MyProjects\_Mvc\Projects\ProjectMvcExample2\Application\obj\Debug\Application.pdb

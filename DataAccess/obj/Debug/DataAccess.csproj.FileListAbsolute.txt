@@ -1,0 +1,9 @@
+C:\_MyProjects\_Mvc\Projects\ProjectMvcExample2\DataAccess\bin\Debug\DataAccess.dll
+C:\_MyProjects\_Mvc\Projects\ProjectMvcExample2\DataAccess\bin\Debug\DataAccess.pdb
+C:\_MyProjects\_Mvc\Projects\ProjectMvcExample2\DataAccess\bin\Debug\Domain.dll
+C:\_MyProjects\_Mvc\Projects\ProjectMvcExample2\DataAccess\bin\Debug\Domain.pdb
+C:\_MyProjects\_Mvc\Projects\ProjectMvcExample2\DataAccess\obj\Debug\DataAccess.csprojAssemblyReference.cache
+C:\_MyProjects\_Mvc\Projects\ProjectMvcExample2\DataAccess\obj\Debug\DataAccess.csproj.CoreCompileInputs.cache
+C:\_MyProjects\_Mvc\Projects\ProjectMvcExample2\DataAccess\obj\Debug\DataAccess.csproj.CopyComplete
+C:\_MyProjects\_Mvc\Projects\ProjectMvcExample2\DataAccess\obj\Debug\DataAccess.dll
+C:\_MyProjects\_Mvc\Projects\ProjectMvcExample2\DataAccess\obj\Debug\DataAccess.pdb
