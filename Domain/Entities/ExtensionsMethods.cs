@@ -5,7 +5,7 @@ using System.Data;
 using System.Linq;
 using System.Text;
 
-namespace WebApplication.Util
+namespace Domain.Entities
 {
     public static class ExtensionsMethods
     {
