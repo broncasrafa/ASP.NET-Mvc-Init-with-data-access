@@ -151,27 +151,42 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Content\bootstrap-theme.css" />
-    <Content Include="Content\bootstrap-theme.min.css" />
-    <Content Include="Content\bootstrap.css" />
-    <Content Include="Content\bootstrap.min.css" />
-    <Content Include="favicon.ico" />
+    <Content Include="Content\assets\css\bootstrap3\bootstrap-theme.css" />
+    <Content Include="Content\assets\css\bootstrap3\bootstrap-theme.min.css" />
+    <Content Include="Content\assets\css\bootstrap3\bootstrap.css" />
+    <Content Include="Content\assets\css\bootstrap3\bootstrap.min.css" />
+    <Content Include="Content\assets\css\jquery.blockUI\jquery.blockUI.css" />
+    <Content Include="Content\assets\css\toastr\toastr.css" />
+    <Content Include="Content\assets\css\toastr\toastr.min.css" />
+    <Content Include="Content\assets\images\loading\ajax-loader_1.gif" />
+    <Content Include="Content\assets\images\loading\ajax-loader_2.gif" />
+    <Content Include="Content\assets\images\loading\ajax-loader_3.gif" />
+    <Content Include="Content\assets\images\loading\ajax-loader_4.gif" />
+    <Content Include="Content\assets\images\loading\ajax-loader_5.gif" />
+    <Content Include="Content\assets\images\loading\ajax-loader_6.gif" />
+    <Content Include="Content\assets\scripts\app\functions.js" />
+    <Content Include="Content\assets\images\icons\favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
-    <Content Include="Content\Site.css" />
-    <Content Include="Scripts\bootstrap.js" />
-    <Content Include="Scripts\bootstrap.min.js" />
-    <None Include="Scripts\jquery-3.3.1.intellisense.js" />
-    <Content Include="Scripts\jquery-3.3.1.js" />
-    <Content Include="Scripts\jquery-3.3.1.min.js" />
-    <Content Include="Scripts\jquery-3.3.1.slim.js" />
-    <Content Include="Scripts\jquery-3.3.1.slim.min.js" />
-    <None Include="Scripts\jquery.validate-vsdoc.js" />
-    <Content Include="Scripts\jquery.validate.js" />
-    <Content Include="Scripts\jquery.validate.min.js" />
-    <Content Include="Scripts\jquery.validate.unobtrusive.js" />
-    <Content Include="Scripts\jquery.validate.unobtrusive.min.js" />
-    <Content Include="Scripts\modernizr-2.8.3.js" />
+    <Content Include="Content\assets\css\app\site.css" />
+    <Content Include="Content\assets\scripts\libs\bootstrap3\bootstrap.js" />
+    <Content Include="Content\assets\scripts\libs\bootstrap3\bootstrap.min.js" />
+    <None Include="Content\assets\scripts\libs\jquery\jquery-3.3.1.intellisense.js" />
+    <Content Include="Content\assets\scripts\libs\jquery\jquery-3.3.1.js" />
+    <Content Include="Content\assets\scripts\libs\jquery\jquery-3.3.1.min.js" />
+    <Content Include="Content\assets\scripts\libs\jquery\jquery-3.3.1.slim.js" />
+    <Content Include="Content\assets\scripts\libs\jquery\jquery-3.3.1.slim.min.js" />
+    <None Include="Content\assets\scripts\libs\jquery.validate\jquery.validate-vsdoc.js" />
+    <Content Include="Content\assets\scripts\libs\jquery.validate\jquery.validate.js" />
+    <Content Include="Content\assets\scripts\libs\jquery.validate\jquery.validate.min.js" />
+    <Content Include="Content\assets\scripts\libs\jquery.validate\jquery.validate.unobtrusive.js" />
+    <Content Include="Content\assets\scripts\libs\jquery.validate\jquery.validate.unobtrusive.min.js" />
+    <Content Include="Content\assets\scripts\libs\modernizr\modernizr-2.8.3.js" />
+    <Content Include="Content\assets\scripts\libs\jquery.blockUI\jquery.blockUI.js" />
+    <Content Include="Content\assets\scripts\libs\toastr\toastr.js" />
+    <Content Include="Content\assets\scripts\libs\toastr\toastr.min.js" />
+    <Content Include="scripts\jquery.unobtrusive-ajax.js" />
+    <Content Include="scripts\jquery.unobtrusive-ajax.min.js" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -189,9 +204,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Content\Site\css\" />
-    <Folder Include="Content\Site\images\" />
-    <Folder Include="Content\Site\scripts\" />
     <Folder Include="Views\Account\" />
     <Folder Include="Views\Base\" />
     <Folder Include="Views\Login\" />
@@ -201,13 +213,15 @@
     <Content Include="fonts\glyphicons-halflings-regular.woff" />
     <Content Include="fonts\glyphicons-halflings-regular.ttf" />
     <Content Include="fonts\glyphicons-halflings-regular.eot" />
-    <Content Include="Content\bootstrap.min.css.map" />
-    <Content Include="Content\bootstrap.css.map" />
-    <Content Include="Content\bootstrap-theme.min.css.map" />
-    <Content Include="Content\bootstrap-theme.css.map" />
+    <Content Include="Content\assets\css\bootstrap3\bootstrap.min.css.map" />
+    <Content Include="Content\assets\css\bootstrap3\bootstrap.css.map" />
+    <Content Include="Content\assets\css\bootstrap3\bootstrap-theme.min.css.map" />
+    <Content Include="Content\assets\css\bootstrap3\bootstrap-theme.css.map" />
+    <Content Include="Content\assets\css\toastr\toastr.scss" />
+    <Content Include="Content\assets\css\toastr\toastr.less" />
     <None Include="packages.config" />
-    <Content Include="Scripts\jquery-3.3.1.slim.min.map" />
-    <Content Include="Scripts\jquery-3.3.1.min.map" />
+    <Content Include="Content\assets\scripts\libs\jquery\jquery-3.3.1.slim.min.map" />
+    <Content Include="Content\assets\scripts\libs\jquery\jquery-3.3.1.min.map" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Application\Application.csproj">
