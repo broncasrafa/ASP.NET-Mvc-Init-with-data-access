@@ -31,6 +31,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="HtmlAgilityPack, Version=1.11.21.0, Culture=neutral, PublicKeyToken=bd319b19eaf3b43a, processorArchitecture=MSIL">
+      <HintPath>..\packages\HtmlAgilityPack.1.11.21\lib\Net45\HtmlAgilityPack.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -42,12 +45,17 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Entities\Base.cs" />
+    <Compile Include="Entities\EmailMessage.cs" />
+    <Compile Include="Entities\Enums.cs" />
+    <Compile Include="Entities\Helpers.cs" />
     <Compile Include="Entities\Usuario.cs" />
     <Compile Include="Interfaces\IRepositories\IRepositoryUsuario.cs" />
     <Compile Include="Interfaces\IServices\IServiceUsuario.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Services\ServiceUsuario.cs" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -64,12 +64,21 @@
     <Reference Include="System" />
     <Reference Include="System.Data" />
     <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http.Formatting, Version=5.2.7.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.WebApi.Client.5.2.7\lib\net45\System.Net.Http.Formatting.dll</HintPath>
+    </Reference>
     <Reference Include="System.Web.DynamicData" />
     <Reference Include="System.Web.Entity" />
     <Reference Include="System.Web.ApplicationServices" />
     <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System.Core" />
     <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Http, Version=5.2.7.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.WebApi.Core.5.2.7\lib\net45\System.Web.Http.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Http.WebHost, Version=5.2.7.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.WebApi.WebHost.5.2.7\lib\net45\System.Web.Http.WebHost.dll</HintPath>
+    </Reference>
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Web" />
     <Reference Include="System.Web.Extensions" />
@@ -149,6 +158,14 @@
     <Compile Include="Models\LoginViewModel.cs" />
     <Compile Include="Models\UsuarioModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Util\Authorization.cs" />
+    <Compile Include="Util\ComboBoxUtil.cs" />
+    <Compile Include="Util\HtmlHelperExtensions.cs" />
+    <Compile Include="Util\UserProperty.cs" />
+    <Compile Include="Util\ValidationAttributes\DeleteFileAttribute.cs" />
+    <Compile Include="Util\ValidationAttributes\ValidateCnpjAttribute.cs" />
+    <Compile Include="Util\ValidationAttributes\ValidateCpfAttribute.cs" />
+    <Compile Include="Util\ValidationAttributes\ValidateDataRetroativaAttribute.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Content\assets\css\bootstrap3\bootstrap-theme.css" />
@@ -185,8 +202,8 @@
     <Content Include="Content\assets\scripts\libs\jquery.blockUI\jquery.blockUI.js" />
     <Content Include="Content\assets\scripts\libs\toastr\toastr.js" />
     <Content Include="Content\assets\scripts\libs\toastr\toastr.min.js" />
-    <Content Include="scripts\jquery.unobtrusive-ajax.js" />
-    <Content Include="scripts\jquery.unobtrusive-ajax.min.js" />
+    <Content Include="Content\assets\scripts\libs\jquery.unobtrusive-ajax\jquery.unobtrusive-ajax.js" />
+    <Content Include="Content\assets\scripts\libs\jquery.unobtrusive-ajax\jquery.unobtrusive-ajax.min.js" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -204,6 +221,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="scripts\" />
     <Folder Include="Views\Account\" />
     <Folder Include="Views\Base\" />
     <Folder Include="Views\Login\" />
